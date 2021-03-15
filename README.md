@@ -16,5 +16,9 @@ Learn rust snippets.
   - `cargo new --vcs=git folder && cd folder`.
   - `cargo build && ./target/debug/folder` or `cargo run`.
 
+## Checking and releasing
+- Checking a rust file do `cargo check`.
+- Release a rust file with `cargo build --release`.
+
 ## Contributors
 - Sylvance Kerandi.
