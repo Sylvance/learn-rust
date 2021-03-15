@@ -7,5 +7,14 @@ Learn rust snippets.
 ### Get book locally
 - Run `rustup docs --book`.
 
+## Running a Rust file
+- Option 1:
+  - `rustc file.rs`.
+  - `./file`.
+
+- Option 2:
+  - `cargo new --vcs=git folder && cd folder`.
+  - `cargo build && ./target/debug/folder` or `cargo run`.
+
 ## Contributors
 - Sylvance Kerandi.
